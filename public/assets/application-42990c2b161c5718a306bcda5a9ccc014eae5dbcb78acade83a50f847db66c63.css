@@ -1,0 +1,1730 @@
+/* line 1, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+#header-admin {
+  z-index: 999;
+  background: #fff;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+/* line 6, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+#info-bar {
+  background: white;
+  color: #707270;
+  padding: 5px 0 3px;
+}
+
+/* line 11, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.top-info ul {
+  list-style: none;
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 17, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.top-info span {
+  font: 13px/28px 'open sans';
+  padding-right: 15px;
+}
+
+/* line 21, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.top-info span i {
+  font-size: 13px;
+  margin-right: 5px;
+}
+
+/* line 25, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.top-info li {
+  float: left;
+}
+
+/* line 28, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.top-info li a {
+  border-radius: 100%;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  height: 25px;
+  line-height: 23px;
+  margin: 0 2px;
+  text-align: center;
+  transition: background-color 400ms linear 0s;
+  width: 25px;
+  background: none repeat scroll 0 0 #bfbfbf;
+}
+
+/* line 41, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.ie8 #header-admin {
+  border-bottom: 1px solid #e9e9e9;
+}
+
+/* line 44, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.pixel-header-admin {
+  height: 50px;
+  overflow: hidden;
+}
+
+/* line 48, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+#logo-bar {
+  background: #3498db;
+  padding: 0;
+  height: 95px;
+}
+
+/* line 53, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+#logo {
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+/* line 57, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+#logo > h1 {
+  margin: 0;
+  line-height: 0;
+  margin-bottom: 10px;
+}
+
+/* line 62, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+#logo a {
+  max-width: 100%;
+  height: auto;
+  font-size: 50px;
+  color: white;
+}
+
+/* line 68, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+p {
+  padding-top: 10px;
+  color: white;
+  font-style: italic;
+  font-family: monospace;
+  font-size: 15px;
+}
+
+/* line 75, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.content {
+  padding: 30px 0 60px;
+  position: relative;
+}
+
+/* line 79, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.sub_content {
+  padding: 30px 0;
+}
+
+/* line 82, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-nav {
+  background: #3498db;
+}
+
+/* line 85, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-nav ul {
+  width: 100%;
+  padding: 0;
+  border: 0;
+}
+
+/* line 91, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-toggle {
+  background: #3498db;
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+  margin-top: 13px;
+  margin-right: 5px;
+}
+
+/* line 99, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-default {
+  background: none;
+}
+
+/* line 102, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background: #3498db;
+}
+
+/* line 105, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+  height: 3px;
+}
+
+/* line 109, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar {
+  margin-bottom: 0;
+  min-height: 35px;
+  border: none;
+  float: right;
+}
+
+/* line 115, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-nav .sub-arrow, .navbar-nav .collapsible .sub-arrow {
+  position: static;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 6px;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  vertical-align: middle;
+  border-top: 4px solid;
+  border-right: 4px dashed transparent;
+  border-bottom: 4px dashed transparent;
+  border-left: 4px dashed transparent;
+}
+
+/* line 130, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-nav > li > .has-submenu .sub-arrow {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  width: 8px;
+  height: 8px;
+  line-height: 8px;
+  border-width: 0px;
+}
+
+/* line 141, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-nav > li > .has-submenu .sub-arrow:before {
+  content: '\f107';
+}
+
+/* line 144, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-nav ul .sub-arrow {
+  position: absolute;
+  right: 0;
+  margin-top: 6px;
+  margin-right: 15px;
+  border-top: 4px dashed transparent;
+  border-bottom: 4px dashed transparent;
+  border-left: 4px solid;
+}
+
+/* line 153, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-nav ul a.has-submenu {
+  padding-right: 30px;
+}
+
+/* line 156, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-static-top {
+  height: 95px;
+}
+
+/* line 159, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: transparent;
+  padding: 0;
+}
+
+/* line 163, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-nav span.scroll-up, .navbar-nav span.scroll-down {
+  position: absolute;
+  display: none;
+  visibility: hidden;
+  height: 20px;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* line 171, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-nav span.scroll-up-arrow, .navbar-nav span.scroll-down-arrow {
+  position: absolute;
+  top: -2px;
+  left: 50%;
+  margin-left: -8px;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  border-top: 7px dashed transparent;
+  border-right: 7px dashed transparent;
+  border-bottom: 7px solid;
+  border-left: 7px dashed transparent;
+}
+
+/* line 184, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-nav span.scroll-down-arrow {
+  top: 6px;
+  border-top: 7px solid;
+  border-right: 7px dashed transparent;
+  border-bottom: 7px dashed transparent;
+  border-left: 7px dashed transparent;
+}
+
+/* line 191, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-default .navbar-nav li a {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15px;
+}
+
+/* line 199, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-default .navbar-nav > li:first-child {
+  border-left: none;
+}
+
+/* line 202, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  padding: 40px 9px;
+}
+
+/* line 206, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover {
+  background: #505B95 !important;
+  color: #fff;
+}
+
+/* line 215, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-nav > li.active {
+  background: #505B95;
+  border: none;
+}
+
+/* line 219, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-nav > li:hover {
+  background: #505B95;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+/* line 223, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  background: #505B95;
+  color: #fff;
+}
+
+/* line 229, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:focus,
+.dropdown-menu > .active > a:hover {
+  background-color: #fff;
+}
+
+/* line 234, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-nav .collapsible ul .dropdown-menu > li > a,
+.navbar-nav .collapsible ul .dropdown-menu .dropdown-header-admin {
+  padding-left: 35px;
+}
+
+/* line 238, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-nav .collapsible ul ul .dropdown-menu > li > a,
+.navbar-nav .collapsible ul ul .dropdown-menu .dropdown-header-admin {
+  padding-left: 45px;
+}
+
+/* line 242, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-nav .collapsible ul ul ul .dropdown-menu > li > a,
+.navbar-nav .collapsible ul ul ul .dropdown-menu .dropdown-header-admin {
+  padding-left: 55px;
+}
+
+/* line 246, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-nav .collapsible ul ul ul ul .dropdown-menu > li > a,
+.navbar-nav .collapsible ul ul ul ul .dropdown-menu .dropdown-header-admin {
+  padding-left: 60px;
+}
+
+/* line 250, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-nav .dropdown-menu > li > a {
+  white-space: normal;
+  font-size: 13px;
+  padding: 12px 20px;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+/* line 256, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-nav .dropdown-menu > li:last-child a {
+  border-bottom: none;
+}
+
+/* line 259, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-nav .dropdown-menu > li > a:hover {
+  color: #fff;
+  background: #727CB6;
+}
+
+/* line 264, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-nav ul.sm-nowrap > li > a {
+  white-space: nowrap;
+}
+
+/* line 267, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-nav .collapsible ul {
+  display: none;
+}
+
+/* line 270, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-nav .collapsible ul.sm-nowrap > li > a {
+  white-space: normal;
+}
+
+/* line 273, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-nav .collapsible iframe {
+  display: none;
+}
+
+/* line 276, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+ul.sm li *, ul.sm li *:before, ul.sm li *:after {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 281, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  border-color: transparent !important;
+  background-color: #727CB6;
+  color: #fff !important;
+}
+
+/* line 288, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-nav > li:hover > ul {
+  -moz-animation: fadeInUp .4s ease-in;
+  -webkit-animation: fadeInUp 0.4s ease-in;
+  animation: fadeInUp .4s ease-in;
+}
+
+/* line 293, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.navbar-nav > li > ul.dropdown-menu li:hover ul {
+  -moz-animation: fadeInUp 0.5s ease-in;
+  -webkit-animation: fadeInUp 0.5s ease-in;
+  animation: fadeInUp .5s ease-in;
+}
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+/* line 325, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+/* line 329, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.footer_bottom {
+  background: #292F38;
+  padding: 20px 0;
+  color: #fff;
+}
+
+/* line 334, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.footer {
+  background: #323A45;
+  padding: 30px 0;
+  position: relative;
+  color: #fff;
+}
+
+/* line 340, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.widget_content {
+  margin-top: 15px;
+}
+
+/* line 343, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.widget_content > p {
+  font-family: Pt Sans;
+  font-size: 14px;
+}
+
+/* line 347, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.copyright {
+  color: #AAAAAA;
+  font-size: 11px;
+  line-height: 25px;
+  margin: 0;
+}
+
+/* line 353, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.copyright a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 357, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.copyright a:hover {
+  color: #aaa;
+}
+
+/* line 360, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.sidebar .widget h4 span {
+  background: #fff;
+  color: inherit;
+}
+
+/* line 364, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.todo-footer {
+  background-color: #F4FCE8;
+  margin: 0 -20px -10px -20px;
+  padding: 10px 20px;
+}
+
+/* line 369, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+#done-items li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  text-decoration: line-through;
+}
+
+/* line 374, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+#done-items li:last-child {
+  border-bottom: none;
+}
+
+/* line 377, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+#checkAll {
+  margin-top: 10px;
+}
+
+/* line 380, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.white {
+  color: white;
+}
+
+/* line 383, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.panel-body .btn:not(.btn-block) {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+/* line 387, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.update-nag {
+  display: inline-block;
+  font-size: 14px;
+  text-align: left;
+  background-color: #fff;
+  height: 40px;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+/* line 397, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.update-nag:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* line 402, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.update-nag > .update-split {
+  background: #337ab7;
+  width: 33px;
+  float: left;
+  color: #fff !important;
+  height: 100%;
+  text-align: center;
+}
+
+/* line 410, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.update-nag > .update-split > .glyphicon {
+  position: relative;
+  top: calc(50% - 9px) !important;
+}
+
+/* line 414, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.update-nag > .update-split.update-success {
+  background: #5cb85c !important;
+}
+
+/* line 417, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.update-nag > .update-split.update-danger {
+  background: #d9534f !important;
+}
+
+/* line 420, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.update-nag > .update-split.update-info {
+  background: #5bc0de !important;
+}
+
+/* line 423, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.update-nag > .update-text {
+  line-height: 19px;
+  padding-top: 11px;
+  padding-left: 45px;
+  padding-right: 20px;
+}
+
+/* line 429, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.dropdown-toggle {
+  color: white !important;
+}
+
+/* line 432, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+#content-container {
+  height: 650px;
+}
+
+/* line 435, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.text-success {
+  color: white !important;
+}
+
+/* line 438, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.btnUser {
+  margin-left: 240px;
+}
+
+/* line 441, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.avatar {
+  width: 100px;
+  height: 100px;
+}
+
+/* line 445, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+.title_update_admin {
+  font-family: initial;
+  text-align: center;
+}
+
+/* line 449, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+#formcategory form {
+  box-sizing: border-box;
+  width: 260px;
+  margin: 100px auto 0;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  padding-bottom: 40px;
+  border-radius: 3px;
+}
+
+/* line 457, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+#formcategory h2 span {
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+  color: green;
+}
+
+/* line 464, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+#formcategory form input {
+  margin: 40px 25px;
+  width: 200px;
+  display: block;
+  border: none;
+  padding: 10px 0;
+  border-bottom: solid 1px #1abc9c;
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
+  background-position: -200px 0;
+  background-size: 200px 100%;
+  background-repeat: no-repeat;
+  color: #0e6252;
+}
+
+/* line 479, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+#formcategory form input:focus, input:valid {
+  box-shadow: none;
+  outline: none;
+  background-position: 0 0;
+}
+
+/* line 484, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+#formcategory form input:focus::-webkit-input-placeholder,
+input:valid::-webkit-input-placeholder {
+  color: #1abc9c;
+  font-size: 11px;
+  transform: translateY(-20px);
+  visibility: visible !important;
+}
+
+/* line 492, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+#formcategory form .send {
+  border: none;
+  background: #1abc9c;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 6px;
+  width: 200px;
+  color: white;
+  margin-left: 25px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* line 503, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+#formcategory form .send:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* line 507, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+#content table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* line 511, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+#content table th, td {
+  font-size: 15px;
+  text-align: left;
+  padding: 8px;
+}
+
+/* line 516, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+#content h5 span {
+  color: white;
+}
+
+/* line 519, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+#content table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* line 520, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/admin/admin_style.css.scss */
+#content table th {
+  background-color: #4CAF50;
+  color: white;
+}
+/* line 1, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/categories.css.scss */
+#services {
+  text-align: center;
+}
+
+/* line 4, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/categories.css.scss */
+.clientsphoto img {
+  width: 80px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* line 11, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/categories.css.scss */
+.clientsphoto img:hover {
+  border-radius: 15%;
+}
+
+/* line 15, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/categories.css.scss */
+blockquote {
+  margin: 0;
+  padding: 0 0 10px 0;
+  border: none;
+}
+
+/* line 21, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/categories.css.scss */
+blockquote p {
+  font-style: italic;
+  font-size: 14px;
+}
+
+/* line 26, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/categories.css.scss */
+.quote {
+  overflow: hidden;
+}
+
+/* line 27, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/categories.css.scss */
+.quote h5 {
+  margin-bottom: 5px;
+}
+
+/* line 31, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/categories.css.scss */
+.bounceInUp {
+  -webkit-animation-name: bounceInUp;
+  animation-name: bounceInUp;
+}
+
+/* line 35, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/categories.css.scss */
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+/* line 41, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/categories.css.scss */
+.sectionhead {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* line 46, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/categories.css.scss */
+.col-md-6 {
+  padding-bottom: 50px;
+}
+/* line 1, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.getstart {
+  background: #252525;
+  color: #fff;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  display: inline-block;
+  padding: 20px 28px;
+  width: auto;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+/* line 13, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.getstart:hover {
+  background: #0ba39c;
+  color: #FFF;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* line 19, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.clickable {
+  cursor: pointer;
+}
+
+/* line 22, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.tiptext {
+  width: 100px;
+  padding: 10px;
+}
+
+/* line 26, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.description {
+  display: none;
+  position: absolute;
+  padding: 5px;
+  width: 100%;
+}
+
+/* line 32, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+hr.separetor {
+  width: 80px;
+  color: #363942;
+  border-top: 2px solid #ea9312;
+}
+
+/* line 37, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+h4 {
+  font-size: 18px;
+  line-height: 14px;
+}
+
+/* line 38, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+p {
+  letter-spacing: 1px;
+  color: #c3c3c3;
+  font-weight: lighter;
+}
+
+/* line 43, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+a {
+  color: #44C295;
+}
+
+/* line 46, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.card {
+  padding-top: 20px;
+  margin: 10px 0 20px 0;
+  background-color: rgba(214, 224, 226, 0.2);
+  border-top-width: 0;
+  border-bottom-width: 2px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 63, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.card .card-heading {
+  padding: 0 20px;
+  margin: 0;
+}
+
+/* line 68, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.card .card-heading.simple {
+  font-size: 20px;
+  font-weight: 300;
+  color: #777;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* line 75, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.card .card-heading.image img {
+  display: inline-block;
+  width: 46px;
+  height: 46px;
+  margin-right: 15px;
+  vertical-align: top;
+  border: 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/* line 87, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.card .card-heading.image .card-heading-header {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* line 92, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.card .card-heading.image .card-heading-header h3 {
+  margin: 0;
+  font-size: 14px;
+  line-height: 16px;
+  color: #262626;
+}
+
+/* line 99, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.card .card-heading.image .card-heading-header span {
+  font-size: 12px;
+  color: #999999;
+}
+
+/* line 104, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.card .card-body {
+  padding: 0 20px;
+  margin-top: 20px;
+}
+
+/* line 109, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.card .card-media {
+  padding: 0 20px;
+  margin: 0 -14px;
+}
+
+/* line 114, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.card .card-media img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* line 119, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.card .card-actions {
+  min-height: 30px;
+  padding: 0 20px 20px 20px;
+  margin: 20px 0 0 0;
+}
+
+/* line 125, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.card .card-comments {
+  padding: 20px;
+  margin: 0;
+  background-color: #f8f8f8;
+}
+
+/* line 131, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.card .card-comments .comments-collapse-toggle {
+  padding: 0;
+  margin: 0 20px 12px 20px;
+}
+
+/* line 136, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.card .card-comments .comments-collapse-toggle a,
+.card .card-comments .comments-collapse-toggle span {
+  padding-right: 5px;
+  overflow: hidden;
+  font-size: 12px;
+  color: #999;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* line 146, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.card-comments .media-heading {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/* line 151, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.card.people {
+  position: relative;
+  display: inline-block;
+  width: 170px;
+  height: 300px;
+  padding-top: 0;
+  margin-left: 20px;
+  overflow: hidden;
+  vertical-align: top;
+}
+
+/* line 162, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.card.people:first-child {
+  margin-left: 0;
+}
+
+/* line 166, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.card.people .card-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 170px;
+  height: 150px;
+  background-color: #ffffff;
+}
+
+/* line 176, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.card.people .card-top.green {
+  background-color: #53a93f;
+}
+
+/* line 180, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.card.people .card-top.blue {
+  background-color: #427fed;
+}
+
+/* line 184, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.card.people .card-info {
+  position: absolute;
+  top: 150px;
+  display: inline-block;
+  width: 100%;
+  height: 101px;
+  overflow: hidden;
+  background: #ffffff;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 197, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.card.people .card-info .title {
+  display: block;
+  margin: 8px 14px 0 14px;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 18px;
+  color: #404040;
+}
+
+/* line 207, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.card.people .card-info .desc {
+  display: block;
+  margin: 8px 14px 0 14px;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 16px;
+  color: #737373;
+  text-overflow: ellipsis;
+}
+
+/* line 217, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.card.people .card-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  padding: 10px 20px;
+  line-height: 29px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 231, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.card.hovercard {
+  position: relative;
+  padding-top: 0;
+  overflow: hidden;
+  text-align: center;
+  background-color: rgba(214, 224, 226, 0.2);
+}
+
+/* line 239, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.card.hovercard .cardheader {
+  background-size: cover;
+  height: 100px;
+}
+
+/* line 244, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.card.hovercard .avatar {
+  position: relative;
+  top: -50px;
+  margin-bottom: -50px;
+}
+
+/* line 250, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.card .avatar img {
+  width: 100px;
+  height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0.5);
+}
+
+/* line 261, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.card.hovercard .info {
+  padding: 4px 8px 10px;
+}
+
+/* line 265, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.card.hovercard .info .title {
+  margin-bottom: 4px;
+  font-size: 24px;
+  line-height: 1;
+  color: #262626;
+  vertical-align: middle;
+}
+
+/* line 273, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.card.hovercard .info .desc {
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 20px;
+  color: #737373;
+  text-overflow: ellipsis;
+  float: left;
+  margin: 20px 0px 20px 50px;
+}
+
+/* line 283, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.card.hovercard .bottom {
+  padding: 0 20px;
+  margin-bottom: 17px;
+}
+
+/* line 288, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#body #error_explanation {
+  color: red;
+}
+/* line 290, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#body #error_explanation ul {
+  color: red;
+  text-align: left;
+}
+/* line 294, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#body #error_explanation li {
+  border: none;
+}
+
+/* line 298, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#header {
+  margin: 0 auto;
+  padding: 0px 0 50px;
+  text-align: center;
+  width: 960px;
+}
+
+/* line 304, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#header .logo {
+  display: block;
+  margin: 0px auto;
+  padding: 0px;
+  width: 340px;
+}
+
+/* line 310, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#header ul {
+  margin: 0;
+}
+
+/* line 313, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#header ul li {
+  display: inline;
+  list-style: none;
+  margin: 0;
+  padding: 0 19px;
+}
+
+/* line 319, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#header ul li a {
+  color: #252525;
+  display: inline-block;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0 0 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* line 330, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#header ul li a:hover, #header ul li.selected a {
+  color: #0ba39c;
+}
+
+/* line 333, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.floating-label-form-group {
+  font-size: 14px;
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eee;
+}
+
+/* line 340, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.floating-label-form-group label {
+  display: block;
+  z-index: 0;
+  position: relative;
+  top: 20px;
+  margin: 0px;
+  font-size: 8.5px;
+  line-height: 17.6471px;
+  vertical-align: baseline;
+  opacity: 0;
+  transition: top 0.3s ease 0s, opacity 0.3s;
+}
+
+/* line 352, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.col-xs-12 {
+  width: 100%;
+}
+
+/* line 355, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.floating-label-form-group input, .floating-label-form-group textarea {
+  z-index: 1;
+  position: relative;
+  padding-right: 0px;
+  padding-left: 0px;
+  border: medium none;
+  border-radius: 0px;
+  font-size: 20px;
+  background: none repeat scroll 0px 0px transparent;
+  box-shadow: none !important;
+  resize: none;
+}
+
+/* line 367, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.floating-label-form-group textarea {
+  z-index: 1;
+  position: relative;
+  padding-right: 0;
+  padding-left: 0;
+  border: none;
+  border-radius: 0;
+  font-size: 20px;
+  background: 0 0;
+  box-shadow: none !important;
+  resize: none;
+}
+
+/* line 379, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#body form input, #body form textarea {
+  color: #252525;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  margin: 0px 0px 37px;
+  padding: 20px 10px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 596px;
+}
+
+/* line 390, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.container .form_edit {
+  float: right;
+  margin-right: 150px;
+  text-align: center;
+}
+
+/* line 395, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+container .form_edit form input .send {
+  color: #fff;
+}
+
+/* line 398, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.container .form_edit form input, #body form textarea {
+  color: #252525;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  margin: 0px 0px 37px;
+  padding: 20px 10px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 500px;
+}
+
+/* line 409, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.container #featured {
+  margin: 0 0 13px;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+/* line 415, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.container #featured img {
+  border: 0;
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* line 422, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.container #featured div {
+  margin-left: -480px;
+  margin-top: -171px;
+  padding: 0px 0px 0px 470px;
+  position: absolute;
+  top: 50%;
+  text-align: left;
+}
+
+/* line 430, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.container #featured div h2 {
+  background: #fff;
+  color: #000;
+  display: inline-block;
+  font-family: poller_oneregular;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0 350px 18px;
+  padding: 23px 27px 20px;
+  text-transform: uppercase;
+}
+
+/* line 441, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.container #featured div span {
+  color: #fff;
+  display: inline-block;
+  font-size: 20px;
+  margin: 7px 120px;
+  padding: 12px 27px;
+  display: block;
+}
+
+/* line 449, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.container #featured div a {
+  background: #000;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  margin: 15px 0 0 450px;
+  padding: 26px 27px 22px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* line 460, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.container #featured div a:hover {
+  background: #0ba39c;
+}
+
+/* line 463, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.container > ul {
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 24px 0 0;
+  width: 960px;
+}
+
+/* line 469, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.container > ul li {
+  display: block;
+  float: left;
+  margin: 0 10px 20px;
+  padding: 0;
+  width: 300px;
+}
+
+/* line 476, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.container > ul li a {
+  color: #000;
+  display: block;
+  font-family: poller_oneregular;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* line 488, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.container > ul li a img {
+  margin: 0;
+  padding: 0;
+  opacity: .8;
+  transition: 0.5s ease-in-out;
+  width: 200px;
+}
+
+/* line 495, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.container > ul li a:hover img {
+  opacity: 1;
+}
+
+/* line 498, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.container > ul li a span {
+  display: block;
+  margin: 0;
+  padding: 33px 0 0;
+}
+
+/* line 503, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.container .bottom form {
+  margin: 0 auto;
+  padding: 24px 0 0;
+  width: 115px;
+}
+
+/* line 508, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.container form {
+  margin: 0 auto;
+  padding: 24px 0 0;
+  width: 620px;
+}
+
+/* line 513, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.container form textarea {
+  height: 175px;
+  overflow: auto;
+  resize: none;
+}
+
+/* line 518, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#body form .send {
+  color: #FFF;
+}
+
+/* line 521, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.container form .send {
+  background: #252525;
+  color: #fff;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  display: inline-block;
+  padding: 20px 28px;
+  width: auto;
+  margin-bottom: 30px;
+}
+
+/* line 532, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.container form .send:hover {
+  background: #0ba39c;
+  color: #FFF;
+  cursor: pointer;
+}
+
+/* line 538, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#body {
+  margin: 0;
+  padding: 0 0 30px;
+  text-align: center;
+}
+
+/* line 543, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#body h1 {
+  color: #fff;
+  display: inline;
+  font-family: poller_oneregular;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+/* line 553, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#body h1 span {
+  background: #252525;
+  display: inline-block;
+  padding: 15px 28px 12px;
+}
+
+/* line 558, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#body > div {
+  margin: 0 auto;
+  padding: 0;
+  width: 960px;
+}
+
+/* line 563, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#body > div img {
+  border: 2px solid #292929;
+  margin: 24px 0 0;
+  padding: 0;
+}
+
+/* line 568, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#body > div .article {
+  margin: 0 auto;
+  padding: 30px 30px 0;
+  width: 560px;
+}
+
+/* line 573, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#body > div .article h2 {
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  margin: 0 0 30px;
+}
+
+/* line 579, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#body > div .article h3 {
+  color: #252525;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+/* line 586, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#body > div .article h4 {
+  background: #252525;
+  color: #fff;
+  display: inline-block;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  margin: 0 0 30px;
+  padding: 8px 27px 10px;
+}
+
+/* line 596, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#body > div .article p {
+  margin: 0 0 30px;
+}
+
+/* line 599, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#body div ul {
+  margin: 0;
+  padding: 24px 10px 0;
+  width: 940px;
+}
+
+/* line 604, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#body div ul li {
+  border: 2px solid #1a1a1a;
+  display: block;
+  list-style: none;
+  margin: 0 0 13px;
+  overflow: hidden;
+  padding: 0;
+}
+
+/* line 612, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#body div ul li .figure {
+  border-right: 2px solid #1a1a1a;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 376px;
+}
+
+/* line 619, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#body div ul li img {
+  border: 0;
+  display: block;
+  margin: 0;
+  padding: 0;
+  opacity: 0.8;
+  transition: 0.5s ease-in-out;
+}
+
+/* line 627, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#body div ul li .figure:hover img {
+  opacity: 1;
+}
+
+/* line 630, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#body div ul li div {
+  float: left;
+  margin: 0;
+  padding: 63px 0 20px;
+  width: 558px;
+}
+
+/* line 636, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#body div ul li div h3 {
+  color: #252525;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+/* line 645, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#body div ul li div p {
+  padding: 30px 30px 18px;
+}
+
+/* line 648, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#body div ul li div a.more {
+  background: #000;
+  color: #fff;
+  display: inline-block;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+  padding: 8px 28px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* line 660, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#body div ul li div a.more:hover {
+  color: #252525;
+  background: #fff;
+  border: 2px solid #252525;
+}
+
+/* line 665, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#footer {
+  background: #252525;
+  margin: 0;
+  padding: 36px 0 42px;
+}
+
+/* line 670, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#footer div {
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
+  width: 960px;
+}
+
+/* line 676, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#footer div p {
+  color: #fff;
+  float: left;
+  line-height: 44px;
+  margin: 0 0 0 10px;
+  padding: 0;
+}
+
+/* line 683, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#footer div ul {
+  display: block;
+  float: right;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  width: 256px;
+}
+
+/* line 691, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#footer div ul li {
+  display: block;
+  float: left;
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+  width: 44px;
+}
+
+/* line 699, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#footer div ul li a {
+  background: url("icons.jpg") no-repeat 0 0;
+  display: block;
+  height: 44px;
+  margin: 0;
+  padding: 0;
+  text-indent: -99999px;
+  width: 44px;
+}
+
+/* line 708, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#footer div ul li #twitter {
+  background-position: 0 0;
+}
+
+/* line 711, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#footer div ul li #twitter:hover {
+  background-position: -44px 0;
+}
+
+/* line 714, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#footer div ul li #facebook {
+  background-position: 0 -44px;
+}
+
+/* line 717, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#footer div ul li #facebook:hover {
+  background-position: -44px -44px;
+}
+
+/* line 720, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#footer div ul li #googleplus {
+  background-position: 0 -88px;
+}
+
+/* line 723, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#footer div ul li #googleplus:hover {
+  background-position: -44px -88px;
+}
+
+/* line 726, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#footer div ul li #pinterest {
+  background-position: 0 -132px;
+}
+
+/* line 729, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+#footer div ul li #pinterest:hover {
+  background-position: -44px -132px;
+}
+
+/* line 732, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.white {
+  color: white !important;
+}
+
+/* line 735, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.gravatar {
+  margin-left: 70px;
+}
+
+/* line 738, /home/lesa/Documents/T/project1-master/app/assets/stylesheets/custom.css.scss */
+.center {
+  text-align: center;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+@import 'bootstrap-sprockets';
+@import 'bootstrap';

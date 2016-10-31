@@ -1,0 +1,48 @@
+<%= form_for @exam do |f| %>
+  <ol>
+    <%= f.fields_for :question_exams do |ff| %>
+      <li>
+        <%= ff.object.question.content %>
+        <ul>
+          <%= ff.fields_for :answer_chooses do |fff| %>
+            <% if ff.object.question.single? %>
+              <% ff.object.question.answers.each do |answer| %>
+                <li>
+                  <%= fff.radio_button :answer_id, answer.id, disabled: @exam.uncheck? || @exam.checked? %>
+                  <% if answer.is_correct? && @exam.checked? %>
+                      <%= answer.content %><%= image_tag "tick1.png", alt: t("alt") %>
+                  <% else %>
+                      <%= answer.content %>
+                  <% end %>
+                </li>
+              <% end %>
+            <% else %>
+              <li>
+                <% if fff.object.persisted? %>
+                  <%= fff.check_box :_destroy,
+                    {checked: true, disabled: @exam.uncheck? || @exam.checked? }, 0, 1 %>
+                  <%= fff.hidden_field :id,
+                    value: fff.object.id %>
+                <% else %>
+                    <%= fff.check_box :answer_id,
+                    {checked: false, disabled: @exam.uncheck? || @exam.checked?}, fff.object.answer.id, nil %>
+                <% end %>
+
+                  <% if fff.object.answer.is_correct? && @exam.checked? %>
+                      <%= fff.object.answer.content %><%= image_tag "tick1.png", alt: t("alt") %>
+                  <% else %>
+                      <%= fff.object.answer.content %>
+                  <% end %>
+              </li>
+            <% end %>
+          <% end %>
+        </ul>
+      </li>
+    <% end %>
+  </ol>
+  <%= f.hidden_field :status, value: "uncheck" %>
+    <% if @exam.start? || @exam.testing? %>
+    <%= f.submit "submit", class: "btn btn-success pull-right", id: "submit-time-out" %>
+    <% end %>
+<% end %>
+

@@ -1,0 +1,16 @@
+<div class="col-md-10 col-md-offset-1 width-flash">
+  <div class="row exam">
+    <div class="col-md-8 col-md-offset-1">
+      <div class="title">
+        <center><b><h2><%= @exam.category.name %></h2></b></center>
+          <%= tag(:hr) %>
+      </div>
+      <%= hidden_field_tag :remaining_time,  @exam.get_remain_time %>
+      <div class="timer">
+        <h4 style="text-align: center;">Remaining Time</h4>
+        <div id="clock"></div>
+      </div>
+      <%= render "questions" %>
+    </div>
+  </div>
+</div>

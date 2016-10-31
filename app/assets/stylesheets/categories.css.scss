@@ -1,0 +1,48 @@
+#services {
+  text-align: center;
+}
+.clientsphoto img{
+    width: 80px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.clientsphoto img:hover{
+    border-radius: 15%;
+}
+
+blockquote{
+    margin: 0;
+    padding: 0 0 10px 0;
+    border: none;
+}
+
+blockquote p{
+    font-style: italic;
+    font-size: 14px;
+}
+
+.quote{overflow: hidden}
+.quote h5{margin-bottom: 5px;}
+
+
+
+.bounceInUp {
+  -webkit-animation-name: bounceInUp;
+          animation-name: bounceInUp;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.sectionhead{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.col-md-6 {
+    padding-bottom: 50px;
+}

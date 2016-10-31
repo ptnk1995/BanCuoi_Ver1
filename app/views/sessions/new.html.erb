@@ -1,0 +1,9 @@
+<div id="body">
+  <h2><%= t "header.login" %></h2>
+  <%= form_for :session, url: login_path do |f| %>
+    <%= f.email_field :email, placeholder: t("form.email") %>
+    <%= f.password_field :password, placeholder: t("form.password") %>
+    <%= f.submit t("header.login"), class: "btn send" %>
+  <% end %>
+  <span><%= link_to t("index.signup"), signup_path %></span>
+</div>

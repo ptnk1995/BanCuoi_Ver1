@@ -1,0 +1,50 @@
+<div class="row">
+<%= render "users/user" %>
+  <aside class="col-md-9">
+    <h3><%= @title %></h3>
+    <% if @users.any? %>
+      <% @users.each do |user| %>
+      <article class="row">
+        <div class="col-md-2 col-sm-2 hidden-xs">
+          <figure class="thumbnail">
+            <%= gravatar_for user, size: 100 %>
+            <figcaption class="text-center">
+              <%= link_to user.name, user %>
+              <br />
+              <strong class="tiptext">
+                <%= link_to user.following.count,
+                  user_following_index_path(user) %>
+                <div class="description"><%= t "user_infor.following" %></div>
+              </strong>
+              <strong class="tiptext">
+                <%= link_to user.followers.count,
+                  user_followers_path(user) %>
+                <div class="description"><%= t "user_infor.followers" %></div>
+              </strong>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-10 col-sm-10">
+          <div class="panel panel-default arrow left">
+            <div class="panel-body">
+              <header class="text-left">
+                <div class="comment-user"><i class="fa fa-user"></i>
+                  <%= t "hello" %>
+                </div>
+                <time class="comment-date" datetime="16-12-2014 01:05">
+                <i class="fa fa-clock-o"></i>
+                  <%= l user.created_at, format: t("formats.short") %>
+                </time>
+              </header>
+                <div class="comment-post">
+                  <span lass="summary"><%= t "index.description" %></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      <% end %>
+      <%end%>
+  </aside>
+</div>
+<%= will_paginate @users%>

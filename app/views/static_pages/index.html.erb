@@ -1,0 +1,76 @@
+<% if logged_in? %>
+  <%= render "shared/user_infor" %>
+  <h2>Challenge your intelligence</h2>
+  <hr class="separetor">
+  <%= t "wellcome" %>
+  <div id="services">
+    <%= link_to t("start"), exams_path, class: "getstart" %>
+  </div>
+<% else %>
+  <div id="featured">
+    <%= image_tag "home-bg.jpg", alt: t("alt") %>
+    <div>
+      <h2><%= t "index.slogan" %></h2>
+      <span><%= t "index.description" %></span>
+      <br />
+      <%= link_to t("index.signup"), signup_path, class: "btn send" %>
+    </div>
+  </div>
+  <div id="services">
+    <div class="sectionhead row wow fadeInUp">
+      <h3>Lession</h3>
+           <h4>Expedita nobis natus doloribus blanditiis quos, atque voluptatem, veritatis soluta eveniet ea!</h4>
+      <hr class="separetor">
+    </div>
+  </div>
+  <div id="testimonials" class="container">
+        <div class="sectionhead wow bounceInUp" data-wow-duration="2s">
+           <span class="bigicon icon-bubbles"></span>
+           <h3>This is what I love to listen</h3>
+           <h4>Expedita nobis natus doloribus blanditiis quos, atque voluptatem, veritatis soluta eveniet ea!</h4>
+           <hr class="separetor">
+        </div><!-- TESTIMONIAL SECTIONHEAD END -->
+
+        <!-- TESTIMONIAL ITEMS START -->
+        <div class="row">
+            <!-- 1ST TESTIMONIAL ITEM -->
+            <div class="col-md-6 wow bounceIn" data-wow-duration="2s">
+                <div class="clientsphoto">
+                    <%= image_tag "s2.png", alt: t("alt") %>
+                </div>
+
+                <div class="quote">
+                    <blockquote>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia et pariatur ipsam tempora officia ea iusto expedita, nulla, hic odit saepe repellat nesciunt dolorum, officiis laborum ad, aliquam. Quos, et.</p>
+                    </blockquote>
+                    <h5>Tran Thi Le Sa</h5>
+                </div>
+            </div>
+            <div class="col-md-6 wow bounceIn" data-wow-duration="2s">
+                <div class="clientsphoto">
+                    <%= image_tag "s3.png", alt: t("alt") %>
+                </div>
+
+                <div class="quote">
+                    <blockquote>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia et pariatur ipsam tempora officia ea iusto expedita, nulla, hic odit saepe repellat nesciunt dolorum, officiis laborum ad, aliquam. Quos, et.</p>
+                    </blockquote>
+                    <h5>Nguyen Phuoc Tien</h5>
+                </div>
+            </div>
+            <div class="col-md-6 wow bounceIn" data-wow-duration="2s">
+                <div class="clientsphoto">
+                    <%= image_tag "s4.png", alt: t("alt") %>
+                </div>
+
+                <div class="quote">
+                    <blockquote>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia et pariatur ipsam tempora officia ea iusto expedita, nulla, hic odit saepe repellat nesciunt dolorum, officiis laborum ad, aliquam. Quos, et.</p>
+                    </blockquote>
+                    <h5>Nguyen Huu Giap</h5>
+                </div>
+            </div>
+        </div>
+
+    </div><!-- TESTIMONIAL SECTION END -->
+<% end %>

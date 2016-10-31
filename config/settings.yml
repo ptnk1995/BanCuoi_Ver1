@@ -1,0 +1,29 @@
+type_img: "image/jpeg,image/gif,image/png"
+per_page: 2
+per_page_users: 3
+multiple: 0
+single: 1
+status:
+  exam:
+    start: "start"
+    testing: "testing"
+    uncheck: "uncheck"
+    checked: "checked"
+    inactive: "inactive"
+exams:
+  default_mark: 0
+  default_correct: false
+  number_question: 30
+  duaration: 20
+question_number: 30
+activity:
+  target_type:
+    create_relationship: 0
+    destroy_relationship: 1
+    update_account: 2
+    exam: 3
+  action_type:
+    follow: 0
+    unfollow: 1
+    update: 2
+    create_exam: 3
